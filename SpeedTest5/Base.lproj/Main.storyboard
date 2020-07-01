@@ -24,6 +24,7 @@
                                 <state key="normal" title="BLUE"/>
                                 <connections>
                                     <action selector="blue" destination="a2x-8d-nIY" eventType="touchUpInside" id="nC4-5t-ZW7"/>
+                                    <segue destination="a2x-8d-nIY" kind="show" id="hmx-8S-LpK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LA-i8-lAH">
@@ -36,6 +37,7 @@
                                 </state>
                                 <connections>
                                     <action selector="green" destination="a2x-8d-nIY" eventType="touchUpInside" id="r7S-PE-9eP"/>
+                                    <segue destination="a2x-8d-nIY" kind="show" id="6Cu-Su-HJ1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4e-sV-B3g">
@@ -48,6 +50,7 @@
                                 </state>
                                 <connections>
                                     <action selector="yellow" destination="a2x-8d-nIY" eventType="touchUpInside" id="J4A-My-zTh"/>
+                                    <segue destination="a2x-8d-nIY" kind="show" id="C6O-B7-yW1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="قم بالضغط على الزر لتغيير لون الخلفية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neR-se-MHv">
@@ -67,19 +70,14 @@
                                     <color key="titleColor" red="0.91434425119999996" green="0.24562284349999999" blue="0.21347567440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="red" destination="a2x-8d-nIY" eventType="touchUpInside" id="U7K-nU-PaG"/>
+                                    <action selector="red" destination="a2x-8d-nIY" eventType="touchUpInside" id="5Uw-zb-4rA"/>
+                                    <segue destination="a2x-8d-nIY" kind="show" id="yXZ-0w-417"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ocZ-gA-U94"/>
                     </view>
-                    <connections>
-                        <outlet property="blueButton" destination="NNt-ll-Ivo" id="Lo5-mZ-Bo6"/>
-                        <outlet property="greenButton" destination="5LA-i8-lAH" id="UZx-KU-rBO"/>
-                        <outlet property="redButton" destination="oPu-Ej-SBd" id="yGI-o4-lpS"/>
-                        <outlet property="yellowButton" destination="Z4e-sV-B3g" id="D5x-0T-lJS"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27k-gu-JDO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
